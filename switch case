@@ -1,0 +1,48 @@
+#include<stdio.h>
+main()
+{
+	int n;
+	
+	printf("1. Pizza\n 2. Pasta\n 3. Dosa \n 4. Icecream \n 5. Milkshake\n");
+
+	printf("\n enter 1 for pizza\n");
+
+	printf("enter 2 for pasta\n");
+ 	printf("enter 3 for dosa\n");
+	printf("enter 4 for pizza\n");
+	printf("enter 5 for pizza\n");
+	printf("enter your choice\n");
+	scanf("%d",&n);
+	switch(n)
+	{
+		case 1:
+		
+		printf("food=pizza \n price=250");
+		break;
+	
+	
+	
+		case 2:
+		printf("food=pasta \n price=150");
+		break;
+
+		case 3:
+		printf("food=dosa \n price=120");
+		break;
+	
+
+		case 4:
+		printf("food=icecream \n price=80");
+		break;
+	
+	
+	
+		case 5:
+		printf("food=milkshake \n price=100");
+		break;
+		
+		default:
+		printf("wrong dicision");
+	}
+	return 0;	
+}
